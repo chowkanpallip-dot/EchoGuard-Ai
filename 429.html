@@ -1,0 +1,1 @@
+{% extends 'base.html' %}{% block title %}Slow down for a moment{% endblock %}{% block content %}<div class="error-wrap"><span class="error-code">429</span><h1>Too many attempts.</h1><p class="muted-copy">Take a short pause and try again. Your account is still protected.</p><a class="btn btn-primary" href="{{ url_for('public.index') }}">Return home</a></div>{% endblock %}

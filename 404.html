@@ -1,0 +1,1 @@
+{% extends 'base.html' %}{% block title %}That signal is missing{% endblock %}{% block content %}<div class="error-wrap"><span class="error-code">404</span><h1>That signal is missing.</h1><p class="muted-copy">The page may have moved, or the link was incomplete.</p><a class="btn btn-primary" href="{{ url_for('public.index') }}">Return home</a></div>{% endblock %}
